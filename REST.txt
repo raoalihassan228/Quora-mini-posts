@@ -1,0 +1,21 @@
+ REST:
+Representational State Transfer
+
+REST is an architectural style that defines a set of constraints to be used for creating web services.
+>>REST is not any packege or library, it is just a rule or convention to write
+
+CRUD Operations(Create, Read, Update, Delete):
+GET -> retrieves resources
+POST -> submits new data to the server
+PUT -> updates existing data (all data)
+PATCH -> updata existing data partially
+DELETE -> removes data
+
+Redirect: (in Express)
+res.redirect(URL)
+
+Creating id:
+=> UUID Packege
+Universally unique identifier
+npm i uuid
+>>Automatically creates ids in form of string, it is a packege in express.
